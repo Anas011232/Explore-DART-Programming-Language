@@ -143,4 +143,14 @@ void main(){
   var answer=addTwoNumbers(20, 30);
     print("Sum is $answer");
 
+
+  //Growable List
+
+  var myList =['anas','ammar'];
+  myList.add('Rafia');
+  print(myList);
+
+  //Not Growable----->  const myList=['anas','ammar'];
+
+
 }
